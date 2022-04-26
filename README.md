@@ -4,10 +4,13 @@ The Data Set used in "Quasi-real-time aero-engine gas-path diagnosis method usin
 (Tips: There is a Chinese version below)
 
 ==Context Help==
+
 This data set involves two engine individuals of the same type. 
+
 During simulation, engine-to-engine variation, sensor noise and bias, performance deterioration, temperature, and flight traectories are considered.
 
 12 gas-path failure modes are involved in the data set, with three failures for each gas-path component. 
+
 Two of three are used in training set and testing set 1, and the rest one are used in testing set 2.
 
 failure mode code    change in isentropic efficiency      change in flow capacity
@@ -47,6 +50,7 @@ TXT file naming rules:
 FB + flight number (+_label)
 
 ==Data Index==
+
 The Data in the TXT file are arranged in columns in the following order:
 No.	    Measurement
 1	      Run Time
@@ -81,6 +85,7 @@ Your comments and citation are welcome!
 
 
 ==内容说明==
+
 该数据包含两个同型号的发动机个体。
 在仿真过程中，考虑了发动机个体间差异、传感器误差与噪声、性能衰退、环境温度和飞行轨迹等不确定性因素。
 每次仿真过程中，海平面温度在-15℃~30℃之间随机选取。
@@ -116,6 +121,7 @@ txt文件命名规则： 故障模式编号+D+△Tt6
 txt文件命名规则： FB + 飞行顺序编号 (+_label)
 
 ==数据索引==
+
 txt中的数据按列顺序依次为
 No.	      Measurement
 1	        运行时间
@@ -143,8 +149,11 @@ No.	      Measurement
 其中，xx1为传感器测量值，xx2为机载模型的输出值，其余不含1或2的为传感器测量值
 
 ==详细信息==
+
 数据生成及不确定性模拟方法详见论文：
+
 1) Liao Z, Wang J, Liu J, et al. Uncertainties in gas-path diagnosis of gas turbines: Representation and impact analysis. Aerospace Science and Technology, 2021,113:106724.
+
 2) Quasi-real-time aero-engine gas-path diagnosis method using persistent fine-tuning with feed-forward failure data generation for tolerating lifelong distribution shift (在投, 截止2020.04.30)
 
 欢迎广大学者引用！
